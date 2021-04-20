@@ -31,22 +31,16 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-      		<uri>https://anypoint.mulesoft.com</uri>
-      		<muleVersion>${mule.version}</muleVersion>
-      		
-      		<username>${anypoint.username}</username>
-      		<password>${anypoint.password}</password>
-      		<environment>${env}</environment>
-      		<applicationName>${appname}</applicationName>
-  		<businessGroup>${business}</businessGroup>
-		<workerType>${vCore}</workerType>
-      		<workers>${workers}</workers>
-      		<objectStroreV2>true</objectStroreV2>
-      			
-		<properties>
-        		<key>value</key>
-      		</properties>
-   </cloudHubDeployment>
+		            <uri>https://anypoint.mulesoft.com</uri>
+		            <muleVersion>${mule.version}</muleVersion>
+		            <username>${anypoint.username}</username>
+		            <password>${anypoint.password}</password>
+		            <applicationName>MyRepo</applicationName>
+		            <environment>${anypoint.environment}</environment>
+		            <properties>
+		                <key>value</key>
+		            </properties>
+		        </cloudHubDeployment>
 				<classifier>mule-application</classifier>
                 </configuration>
 			</plugin>
