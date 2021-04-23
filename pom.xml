@@ -7,7 +7,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>hellomulesoft</name>
+	<name>hellomulesoft_doc</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,10 +33,11 @@
 				<cloudHubDeployment>
 		            <uri>https://anypoint.mulesoft.com</uri>
 		            <muleVersion>4.3.0</muleVersion>
-		            <username>${anypoint.username}</username>
-		            <password>${anypoint.password}</password>
+		            <username>naveengalipelli2</username>
+		            <password>Naveen$123</password>
 		            <applicationName>MyRepo</applicationName>
-		            <environment>${anypoint.environment}</environment>
+		            <environment>Sandbox</environment>
+		            <objectStoreV2>true</objectStoreV2>
 		            <properties>
 		                <key>value</key>
 		            </properties>
